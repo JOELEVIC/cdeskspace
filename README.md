@@ -18,7 +18,7 @@ The initial interface is adapted from a single-file HTML prototype. It is design
 - Optional privacy blur after inactivity, with a choice between a full-screen unlock popup and a less obstructive blur that leaves workspace navigation available.
 - Local browser storage; no account or cloud sync is connected yet.
 
-The starter data is fictional demo content. Do not enter real customer information into this prototype: browser storage is specific to the current browser profile and is not an authenticated or encrypted cloud database.
+New workspaces start with no customer or activity records; only the default plans and payment methods are preconfigured. Use **Settings & data → Reset workspace** to clear all locally saved records and restore those defaults. Reset requires confirmation and cannot be undone, so export a JSON backup first if you may need the data. Do not enter real customer information into this prototype: browser storage is specific to the current browser profile and is not an authenticated or encrypted cloud database.
 
 ## Run locally
 
