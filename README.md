@@ -8,6 +8,7 @@ The initial interface is adapted from a single-file HTML prototype. It is design
 
 - Overview of received payments, active subscriptions, balances, and recent activity.
 - Create subscriptions and record payments, including partial payments.
+- Capture start and end times for bookings and hourly sessions.
 - Customer, subscription, and payment registers.
 - Date-based reports and operational notes.
 - JSON import and export.
