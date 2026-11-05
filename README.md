@@ -10,6 +10,7 @@ The initial interface is adapted from a single-file HTML prototype. It is design
 - Create subscriptions and record payments, including partial payments.
 - Capture start and end times for bookings and hourly sessions.
 - Start an open-ended session on any plan with time-based prices, keep it pending until checkout, then log its actual end time and calculate the charge using the shortest listed price tier that covers the elapsed time. If the session exceeds the largest tier, that tier repeats; for billing, a month is 30 days.
+- Add missed, completed subscriptions from Quick records using a free-form duration, historical dates and times, and the amount received; these entries also appear in subscription, customer, payment, and activity history.
 - Log non-subscription income, expenses, and cash counts with clear/held amounts.
 - Keep corrections as signed adjustment records, separate from income and expenses, and save dated operational notes.
 - Record whether subscription customers are new or returning, and note client status on other income records when relevant.
