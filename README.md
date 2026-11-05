@@ -9,13 +9,14 @@ The initial interface is adapted from a single-file HTML prototype. It is design
 - Overview of received payments, active subscriptions, balances, and recent activity.
 - Create subscriptions and record payments, including partial payments.
 - Capture start and end times for bookings and hourly sessions.
+- Start an open-ended session on any plan with time-based prices, keep it pending until checkout, then log its actual end time and calculate the charge using the shortest listed price tier that covers the elapsed time. If the session exceeds the largest tier, that tier repeats; for billing, a month is 30 days.
 - Log non-subscription income, expenses, and cash counts with clear/held amounts.
 - Keep corrections as signed adjustment records, separate from income and expenses, and save dated operational notes.
 - Record whether subscription customers are new or returning, and note client status on other income records when relevant.
 - Customer, subscription, and payment registers.
 - Date-based reports and operational notes.
 - JSON import and export.
-- Optional privacy blur after inactivity, with a choice between a full-screen unlock popup and a less obstructive blur that leaves workspace navigation available.
+- Optional privacy blur after inactivity, with a choice between a full-screen unlock popup and a less obstructive blur that leaves workspace navigation available; blur-only mode provides a header button to show details again.
 - Local browser storage; no account or cloud sync is connected yet.
 
 New workspaces start with no customer or activity records; only the default plans and payment methods are preconfigured. Use **Settings & data → Reset workspace** to clear all locally saved records and restore those defaults. Reset requires confirmation and cannot be undone, so export a JSON backup first if you may need the data. Do not enter real customer information into this prototype: browser storage is specific to the current browser profile and is not an authenticated or encrypted cloud database.
