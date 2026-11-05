@@ -9,6 +9,9 @@ The initial interface is adapted from a single-file HTML prototype. It is design
 - Overview of received payments, active subscriptions, balances, and recent activity.
 - Create subscriptions and record payments, including partial payments.
 - Capture start and end times for bookings and hourly sessions.
+- Log non-subscription income, expenses, and cash counts with clear/held amounts.
+- Keep corrections as signed adjustment records, separate from income and expenses, and save dated operational notes.
+- Record whether subscription customers are new or returning, and note client status on other income records when relevant.
 - Customer, subscription, and payment registers.
 - Date-based reports and operational notes.
 - JSON import and export.
