@@ -28,6 +28,10 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000>.
 
+## Live preview
+
+The public static prototype is available at <https://joelevic.github.io/cdeskspace/>.
+
 ## Data backup
 
 Use **Export JSON** to download a backup and **Import JSON** to load a previously exported file. Imports replace the current local dataset, so export a backup before importing. Keep exported files private because they may contain customer and payment information.
